@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  list-style: none;
+  background-color: rgb(29, 29, 31);
+}
+
+.nav-container {
+  /* width: 1600px; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(25, 25, 46);
+  padding: 32px 32px;
+  align-items: center;
+}
+
+.top-nav {
+  list-style: none;
+  display: flex;
+
+  gap: 32px;
+  align-items: center;
+}
+
+.top-nav li {
+  /* display: flex;
+  padding: 0 32px; */
+}
+
+.nav-bar {
+  margin-right: auto;
+  margin-left: 120px;
+}
+
+.logo {
+  font-family: "Oleo Script", cursive;
+  font-size: 24px;
+}
+
+.btn1 {
+  border: none;
+  font-size: 18px;
+  background-color: gray;
+  padding: 12px;
+  color: white;
+  margin-left: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 57px;
+  margin-bottom: 18px;
+}
+
+p {
+  color: white;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.section-one {
+  margin-top: 48px;
+  margin-left: 80px;
+}
+
+input {
+  background-color: rgb(63, 63, 63);
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+}
+
+.btn2 {
+  background-color: rgb(196, 255, 47);
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 14px;
+}
